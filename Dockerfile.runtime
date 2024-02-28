@@ -1,0 +1,4 @@
+FROM hub.furycloud.io/mercadolibre/distroless-go:stable-mini
+
+ENV GO_ENVIRONMENT="production"
+ENV GIN_MODE="release"
